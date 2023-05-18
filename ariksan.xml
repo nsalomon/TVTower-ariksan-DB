@@ -27,8 +27,8 @@
 						<en>%wohnobjekt%</en>
 					</title>
 					<description>
-						<de>%wohnfinder%|%wohnsucher%</de>
-						<en>%wohnfinder%|%wohnsucher%</en>
+						<de>${wohn${wohnselector}}</de>
+						<en>${wohn${wohnselector}}</en>
 					</description>
 					<variables>
 						<suchende_person>
@@ -59,6 +59,10 @@
 							<de>Der Makler versucht %suchende_person2% %wohnobjekt% %artofthedeal%.</de>
 							<en>The realtor %artofthedeal%.</en>
 						</wohnfinder>
+						<wohnselector>
+							<de>finder|sucher</de>
+							<en>finder|sucher</en>
+						</wohnselector>
 					</variables>
 					<episodes value="8"/>
 				</scripttemplate>
@@ -104,7 +108,6 @@
 				<job index="5" function="64" required="1" gender="0"/>
 				<job index="6" function="16" required="1" gender="0"/>
 			</jobs>
-			<!--TODO licenceflags gibt es nicht - production_licence_flags und für die ist Wert 512 ungültig - was war die Intention?, -->
 			<data flags="9" production_broadcast_limit="1" live_date="3,5,20,20" />
 			<genres maingenre="100"/>
 			<blocks min="2" max="3" slope="90"/>
