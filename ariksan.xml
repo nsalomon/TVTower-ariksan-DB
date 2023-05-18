@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <tvtdb>
-	<!--TODO Falls für die Erzeugung von Teilen des Inhalts eine Text-KI eingesetzt wurde, sollte dies gekennzeichnet werden!-->
-	<version value="3" comment="Data entries by ariksan"/>
+	<version value="3" comment="Data entries by ariksan, ChatGPT used to bounce off ideas, rephrasing and translations"/>
 	<scripttemplates>
 		<scripttemplate product="2" licence_type="3" guid="script-ariksan-mkw" creator="9621" comment="inspired by German realtor docu soaps">
 			<title>
@@ -159,146 +158,7 @@
 							<en>breakfast|brunch|lunch|dinner|snack|appetizer|main course|side dish|soup|salad|sandwich|burger|pasta dish|pizza|stir-fry|barbecue|picnic|takeout dish|fast food dish|street food dish|tapas dish|sushi dish|curry|roast|casserole|wrap|finger food|steak dish|dessert</en>
 						</meal>
 					</variables>
-				</scripttemplate>
-				<scripttemplate index="1" product="2" licence_type="2" guid="a15e9b42-7259-4567-8e27-34e2bdf660b3">
-					<title>
-						<de>%protein% mit %spice% ..??!</de>
-						<en>%protein% with %spice% ..??!</en>
-					</title>
-					<description>
-						<de>Die Köche kombinieren %protein% mit %spice% und versuchen %meal% zu kreiren. Ein unterhaltsames Geschmacksdesaster!</de>
-						<en>The chefs combine %protein% with %spice% to create a%flavor% %meal%. An entertaining flavor fiasco!</en>
-					</description>
-					<variables>
-						<protein>
-							<de>Huhn|Rindfleisch|Schweinefleisch|Lammfleisch|Fisch|Garnelen|Hummer|Krabben|Lachs|Thunfisch|Kalbfleisch|Truthahn|Ente|Wachtel|Kaninchen|Oktopus|Tintenfisch|Jakobsmuscheln|Muscheln|Miesmuscheln|Snappfisch|Katzenfisch|Tilapia|Sardellen|Schwertfisch|Austern|Garnelen|Kabeljau|Forelle|Karpfen|Schinken|Schellfisch|Bison|Gans|Hirsch|Sardinen|Kutteln|Niere|Leber|Tofu</de>
-							<en>chicken|beef|pork|lamb|fish|shrimp|lobster|crab|salmon|tuna|veal|turkey|duck|quail|rabbit|octopus|squid|scallops|clams|mussels|snapper|catfish|tilapia|anchovy|swordfish|oysters|prawns|cod|trout|carp|ham|haddock|bison|goose|venison|sardines|tripe|kidney|liver|tofu</en>
-						</protein>
-						<spice>
-							<de>Kreuzkümmel|Koriander|Kurkuma|Zimt|Paprika|Kardamom|Ingwer|Muskatnuss|Gewürznelken|Senf|Fenchel|Bockshornklee|Kümmel|Sternanis|schwarzem Pfeffer|weißem Pfeffer|Cayennepfeffer|Chilipulver|roten Pfefferflocken|Safran|Currypulver|Garam Masala|Five-Spice|Oregano|Thymian|Rosmarin|Basilikum|Petersilie|Dill|Minze|Salbei|Lorbeerblättern|Piment|Kürbisgewürz|Vanille|Knoblauchpulver|Zwiebelpulver|Selleriesalz|Koriandersamen|Mohnsamen|Paprikapulver|Cayennepfeffer|Konfitüre|Senf|Ketchup</de>
-							<en>cumin|coriander|turmeric|cinnamon|paprika|cardamom|ginger|nutmeg|cloves|mustard|fennel|fenugreek|caraway|star anise|black pepper|white pepper|cayenne pepper|chili powder|red pepper flakes|saffron|curry powder|garam masala|five-spice|oregano|thyme|rosemary|basil|parsley|dill|mint|sage|bay leaves|allspice|pumpkin spice|vanilla|garlic powder|onion powder|celery salt|coriander seeds|poppy seeds|paprika powder|cayenne|jelly|mustard|ketchup</en>
-						</spice>
-						<flavor>
-							<de>süß|sauer|scharf|salzig|bitter|herb|herzhaft|reichhaltig|kräuterhaft|rauchig|würzig|minzig|zitronig|erdig|fruchtig|blumig|pfeffrig|cremig|buttrig|nussig|knusprig|saftig|mild|kräftig|erfrischend|markant|aromatisch|exotisch|leicht süß|feurig|samten|saftig|leicht sauer|pikant|ausgewogen|sanft|charakteristisch|harmonisch</de>
-							<en> sweet| sour| spicy| salty| bitter| tangy| savory| rich|n herbaceous| smoky| zesty| minty| citrusy|n earthy| fruity| floral| peppery| creamy| buttery| nutty| crispy| juicy| mellow| tangy| refreshing| bold|n aromatic|n exotic| slightly sweet| fiery| velvety| succulent| slightly sour| pungent| balanced| mild| distinctive| harmonious</en>
-						</flavor>
-						<meal>
-							<de>ein %flavor%es Frühstück|einen %flavor%en Brunch|ein %flavor%es Mittagessen|ein %flavor%es Abendessen|%flavor%e Snacks|%flavor%e Vorspeisen|ein %flavor%es Hauptgericht|%flavor%e Beilagen|eine %flavor%e Suppe|einen %flavor%en Salat|ein %flavor%es Sandwich|einen %flavor%en Burger|ein %flavor%es Nudelgericht|eine %flavor%e Pizza|ein %flavor%es Pfannengericht|ein %flavor%es Barbecue|ein %flavor%es Picknick|ein %flavor%es Takeout-Gericht|ein %flavor%es Fast Food Gericht|%flavor%en Street Food|%flavor%e Tapas|ein %flavor%es Sushi-Gericht|ein %flavor%es Curry-Gericht|einen %flavor%en Braten|einen %flavor%en Auflauf|%flavor%e Wraps|ein %flavor%es Fingerfood-Gericht|ein %flavor%es Steak-Gericht|ein %flavor%es Dessert</de>
-							<en>breakfast|brunch|lunch|dinner|snack|appetizer|main course|side dish|soup|salad|sandwich|burger|pasta dish|pizza|stir-fry|barbecue|picnic|takeout dish|fast food dish|street food dish|tapas dish|sushi dish|curry|roast|casserole|wrap|finger food|steak dish|dessert</en>
-						</meal>
-					</variables>
-				</scripttemplate>
-				<scripttemplate index="2" product="2" licence_type="2" guid="81b18ed5-8239-4399-892d-6ae4e235ebc6">
-					<title>
-						<de>%protein% mit %spice% ..??!</de>
-						<en>%protein% with %spice% ..??!</en>
-					</title>
-					<description>
-						<de>Die Köche kombinieren %protein% mit %spice% und versuchen %meal% zu kreiren. Ein unterhaltsames Geschmacksdesaster!</de>
-						<en>The chefs combine %protein% with %spice% to create a%flavor% %meal%. An entertaining flavor fiasco!</en>
-					</description>
-					<variables>
-						<protein>
-							<de>Huhn|Rindfleisch|Schweinefleisch|Lammfleisch|Fisch|Garnelen|Hummer|Krabben|Lachs|Thunfisch|Kalbfleisch|Truthahn|Ente|Wachtel|Kaninchen|Oktopus|Tintenfisch|Jakobsmuscheln|Muscheln|Miesmuscheln|Snappfisch|Katzenfisch|Tilapia|Sardellen|Schwertfisch|Austern|Garnelen|Kabeljau|Forelle|Karpfen|Schinken|Schellfisch|Bison|Gans|Hirsch|Sardinen|Kutteln|Niere|Leber|Tofu</de>
-							<en>chicken|beef|pork|lamb|fish|shrimp|lobster|crab|salmon|tuna|veal|turkey|duck|quail|rabbit|octopus|squid|scallops|clams|mussels|snapper|catfish|tilapia|anchovy|swordfish|oysters|prawns|cod|trout|carp|ham|haddock|bison|goose|venison|sardines|tripe|kidney|liver|tofu</en>
-						</protein>
-						<spice>
-							<de>Kreuzkümmel|Koriander|Kurkuma|Zimt|Paprika|Kardamom|Ingwer|Muskatnuss|Gewürznelken|Senf|Fenchel|Bockshornklee|Kümmel|Sternanis|schwarzem Pfeffer|weißem Pfeffer|Cayennepfeffer|Chilipulver|roten Pfefferflocken|Safran|Currypulver|Garam Masala|Five-Spice|Oregano|Thymian|Rosmarin|Basilikum|Petersilie|Dill|Minze|Salbei|Lorbeerblättern|Piment|Kürbisgewürz|Vanille|Knoblauchpulver|Zwiebelpulver|Selleriesalz|Koriandersamen|Mohnsamen|Paprikapulver|Cayennepfeffer|Konfitüre|Senf|Ketchup</de>
-							<en>cumin|coriander|turmeric|cinnamon|paprika|cardamom|ginger|nutmeg|cloves|mustard|fennel|fenugreek|caraway|star anise|black pepper|white pepper|cayenne pepper|chili powder|red pepper flakes|saffron|curry powder|garam masala|five-spice|oregano|thyme|rosemary|basil|parsley|dill|mint|sage|bay leaves|allspice|pumpkin spice|vanilla|garlic powder|onion powder|celery salt|coriander seeds|poppy seeds|paprika powder|cayenne|jelly|mustard|ketchup</en>
-						</spice>
-						<flavor>
-							<de>süß|sauer|scharf|salzig|bitter|herb|herzhaft|reichhaltig|kräuterhaft|rauchig|würzig|minzig|zitronig|erdig|fruchtig|blumig|pfeffrig|cremig|buttrig|nussig|knusprig|saftig|mild|kräftig|erfrischend|markant|aromatisch|exotisch|leicht süß|feurig|samten|saftig|leicht sauer|pikant|ausgewogen|sanft|charakteristisch|harmonisch</de>
-							<en> sweet| sour| spicy| salty| bitter| tangy| savory| rich|n herbaceous| smoky| zesty| minty| citrusy|n earthy| fruity| floral| peppery| creamy| buttery| nutty| crispy| juicy| mellow| tangy| refreshing| bold|n aromatic|n exotic| slightly sweet| fiery| velvety| succulent| slightly sour| pungent| balanced| mild| distinctive| harmonious</en>
-						</flavor>
-						<meal>
-							<de>ein %flavor%es Frühstück|einen %flavor%en Brunch|ein %flavor%es Mittagessen|ein %flavor%es Abendessen|%flavor%e Snacks|%flavor%e Vorspeisen|ein %flavor%es Hauptgericht|%flavor%e Beilagen|eine %flavor%e Suppe|einen %flavor%en Salat|ein %flavor%es Sandwich|einen %flavor%en Burger|ein %flavor%es Nudelgericht|eine %flavor%e Pizza|ein %flavor%es Pfannengericht|ein %flavor%es Barbecue|ein %flavor%es Picknick|ein %flavor%es Takeout-Gericht|ein %flavor%es Fast Food Gericht|%flavor%en Street Food|%flavor%e Tapas|ein %flavor%es Sushi-Gericht|ein %flavor%es Curry-Gericht|einen %flavor%en Braten|einen %flavor%en Auflauf|%flavor%e Wraps|ein %flavor%es Fingerfood-Gericht|ein %flavor%es Steak-Gericht|ein %flavor%es Dessert</de>
-							<en>breakfast|brunch|lunch|dinner|snack|appetizer|main course|side dish|soup|salad|sandwich|burger|pasta dish|pizza|stir-fry|barbecue|picnic|takeout dish|fast food dish|street food dish|tapas dish|sushi dish|curry|roast|casserole|wrap|finger food|steak dish|dessert</en>
-						</meal>
-					</variables>
-				</scripttemplate>
-				<scripttemplate index="3" product="2" licence_type="2" guid="e3b9c056-cb54-4aef-83c7-9fd0e29657b1">
-					<title>
-						<de>%protein% mit %spice% ..??!</de>
-						<en>%protein% with %spice% ..??!</en>
-					</title>
-					<description>
-						<de>Die Köche kombinieren %protein% mit %spice% und versuchen %meal% zu kreiren. Ein unterhaltsames Geschmacksdesaster!</de>
-						<en>The chefs combine %protein% with %spice% to create a%flavor% %meal%. An entertaining flavor fiasco!</en>
-					</description>
-					<variables>
-						<protein>
-							<de>Huhn|Rindfleisch|Schweinefleisch|Lammfleisch|Fisch|Garnelen|Hummer|Krabben|Lachs|Thunfisch|Kalbfleisch|Truthahn|Ente|Wachtel|Kaninchen|Oktopus|Tintenfisch|Jakobsmuscheln|Muscheln|Miesmuscheln|Snappfisch|Katzenfisch|Tilapia|Sardellen|Schwertfisch|Austern|Garnelen|Kabeljau|Forelle|Karpfen|Schinken|Schellfisch|Bison|Gans|Hirsch|Sardinen|Kutteln|Niere|Leber|Tofu</de>
-							<en>chicken|beef|pork|lamb|fish|shrimp|lobster|crab|salmon|tuna|veal|turkey|duck|quail|rabbit|octopus|squid|scallops|clams|mussels|snapper|catfish|tilapia|anchovy|swordfish|oysters|prawns|cod|trout|carp|ham|haddock|bison|goose|venison|sardines|tripe|kidney|liver|tofu</en>
-						</protein>
-						<spice>
-							<de>Kreuzkümmel|Koriander|Kurkuma|Zimt|Paprika|Kardamom|Ingwer|Muskatnuss|Gewürznelken|Senf|Fenchel|Bockshornklee|Kümmel|Sternanis|schwarzem Pfeffer|weißem Pfeffer|Cayennepfeffer|Chilipulver|roten Pfefferflocken|Safran|Currypulver|Garam Masala|Five-Spice|Oregano|Thymian|Rosmarin|Basilikum|Petersilie|Dill|Minze|Salbei|Lorbeerblättern|Piment|Kürbisgewürz|Vanille|Knoblauchpulver|Zwiebelpulver|Selleriesalz|Koriandersamen|Mohnsamen|Paprikapulver|Cayennepfeffer|Konfitüre|Senf|Ketchup</de>
-							<en>cumin|coriander|turmeric|cinnamon|paprika|cardamom|ginger|nutmeg|cloves|mustard|fennel|fenugreek|caraway|star anise|black pepper|white pepper|cayenne pepper|chili powder|red pepper flakes|saffron|curry powder|garam masala|five-spice|oregano|thyme|rosemary|basil|parsley|dill|mint|sage|bay leaves|allspice|pumpkin spice|vanilla|garlic powder|onion powder|celery salt|coriander seeds|poppy seeds|paprika powder|cayenne|jelly|mustard|ketchup</en>
-						</spice>
-						<flavor>
-							<de>süß|sauer|scharf|salzig|bitter|herb|herzhaft|reichhaltig|kräuterhaft|rauchig|würzig|minzig|zitronig|erdig|fruchtig|blumig|pfeffrig|cremig|buttrig|nussig|knusprig|saftig|mild|kräftig|erfrischend|markant|aromatisch|exotisch|leicht süß|feurig|samten|saftig|leicht sauer|pikant|ausgewogen|sanft|charakteristisch|harmonisch</de>
-							<en> sweet| sour| spicy| salty| bitter| tangy| savory| rich|n herbaceous| smoky| zesty| minty| citrusy|n earthy| fruity| floral| peppery| creamy| buttery| nutty| crispy| juicy| mellow| tangy| refreshing| bold|n aromatic|n exotic| slightly sweet| fiery| velvety| succulent| slightly sour| pungent| balanced| mild| distinctive| harmonious</en>
-						</flavor>
-						<meal>
-							<de>ein %flavor%es Frühstück|einen %flavor%en Brunch|ein %flavor%es Mittagessen|ein %flavor%es Abendessen|%flavor%e Snacks|%flavor%e Vorspeisen|ein %flavor%es Hauptgericht|%flavor%e Beilagen|eine %flavor%e Suppe|einen %flavor%en Salat|ein %flavor%es Sandwich|einen %flavor%en Burger|ein %flavor%es Nudelgericht|eine %flavor%e Pizza|ein %flavor%es Pfannengericht|ein %flavor%es Barbecue|ein %flavor%es Picknick|ein %flavor%es Takeout-Gericht|ein %flavor%es Fast Food Gericht|%flavor%en Street Food|%flavor%e Tapas|ein %flavor%es Sushi-Gericht|ein %flavor%es Curry-Gericht|einen %flavor%en Braten|einen %flavor%en Auflauf|%flavor%e Wraps|ein %flavor%es Fingerfood-Gericht|ein %flavor%es Steak-Gericht|ein %flavor%es Dessert</de>
-							<en>breakfast|brunch|lunch|dinner|snack|appetizer|main course|side dish|soup|salad|sandwich|burger|pasta dish|pizza|stir-fry|barbecue|picnic|takeout dish|fast food dish|street food dish|tapas dish|sushi dish|curry|roast|casserole|wrap|finger food|steak dish|dessert</en>
-						</meal>
-					</variables>
-				</scripttemplate>
-				<scripttemplate index="4" product="2" licence_type="2" guid="1dbd4b78-504c-43c2-8a85-8b2a7ff2639a">
-					<title>
-						<de>%protein% mit %spice% ..??!</de>
-						<en>%protein% with %spice% ..??!</en>
-					</title>
-					<description>
-						<de>Die Köche kombinieren %protein% mit %spice% und versuchen %meal% zu kreiren. Ein unterhaltsames Geschmacksdesaster!</de>
-						<en>The chefs combine %protein% with %spice% to create a%flavor% %meal%. An entertaining flavor fiasco!</en>
-					</description>
-					<variables>
-						<protein>
-							<de>Huhn|Rindfleisch|Schweinefleisch|Lammfleisch|Fisch|Garnelen|Hummer|Krabben|Lachs|Thunfisch|Kalbfleisch|Truthahn|Ente|Wachtel|Kaninchen|Oktopus|Tintenfisch|Jakobsmuscheln|Muscheln|Miesmuscheln|Snappfisch|Katzenfisch|Tilapia|Sardellen|Schwertfisch|Austern|Garnelen|Kabeljau|Forelle|Karpfen|Schinken|Schellfisch|Bison|Gans|Hirsch|Sardinen|Kutteln|Niere|Leber|Tofu</de>
-							<en>chicken|beef|pork|lamb|fish|shrimp|lobster|crab|salmon|tuna|veal|turkey|duck|quail|rabbit|octopus|squid|scallops|clams|mussels|snapper|catfish|tilapia|anchovy|swordfish|oysters|prawns|cod|trout|carp|ham|haddock|bison|goose|venison|sardines|tripe|kidney|liver|tofu</en>
-						</protein>
-						<spice>
-							<de>Kreuzkümmel|Koriander|Kurkuma|Zimt|Paprika|Kardamom|Ingwer|Muskatnuss|Gewürznelken|Senf|Fenchel|Bockshornklee|Kümmel|Sternanis|schwarzem Pfeffer|weißem Pfeffer|Cayennepfeffer|Chilipulver|roten Pfefferflocken|Safran|Currypulver|Garam Masala|Five-Spice|Oregano|Thymian|Rosmarin|Basilikum|Petersilie|Dill|Minze|Salbei|Lorbeerblättern|Piment|Kürbisgewürz|Vanille|Knoblauchpulver|Zwiebelpulver|Selleriesalz|Koriandersamen|Mohnsamen|Paprikapulver|Cayennepfeffer|Konfitüre|Senf|Ketchup</de>
-							<en>cumin|coriander|turmeric|cinnamon|paprika|cardamom|ginger|nutmeg|cloves|mustard|fennel|fenugreek|caraway|star anise|black pepper|white pepper|cayenne pepper|chili powder|red pepper flakes|saffron|curry powder|garam masala|five-spice|oregano|thyme|rosemary|basil|parsley|dill|mint|sage|bay leaves|allspice|pumpkin spice|vanilla|garlic powder|onion powder|celery salt|coriander seeds|poppy seeds|paprika powder|cayenne|jelly|mustard|ketchup</en>
-						</spice>
-						<flavor>
-							<de>süß|sauer|scharf|salzig|bitter|herb|herzhaft|reichhaltig|kräuterhaft|rauchig|würzig|minzig|zitronig|erdig|fruchtig|blumig|pfeffrig|cremig|buttrig|nussig|knusprig|saftig|mild|kräftig|erfrischend|markant|aromatisch|exotisch|leicht süß|feurig|samten|saftig|leicht sauer|pikant|ausgewogen|sanft|charakteristisch|harmonisch</de>
-							<en> sweet| sour| spicy| salty| bitter| tangy| savory| rich|n herbaceous| smoky| zesty| minty| citrusy|n earthy| fruity| floral| peppery| creamy| buttery| nutty| crispy| juicy| mellow| tangy| refreshing| bold|n aromatic|n exotic| slightly sweet| fiery| velvety| succulent| slightly sour| pungent| balanced| mild| distinctive| harmonious</en>
-						</flavor>
-						<meal>
-							<de>ein %flavor%es Frühstück|einen %flavor%en Brunch|ein %flavor%es Mittagessen|ein %flavor%es Abendessen|%flavor%e Snacks|%flavor%e Vorspeisen|ein %flavor%es Hauptgericht|%flavor%e Beilagen|eine %flavor%e Suppe|einen %flavor%en Salat|ein %flavor%es Sandwich|einen %flavor%en Burger|ein %flavor%es Nudelgericht|eine %flavor%e Pizza|ein %flavor%es Pfannengericht|ein %flavor%es Barbecue|ein %flavor%es Picknick|ein %flavor%es Takeout-Gericht|ein %flavor%es Fast Food Gericht|%flavor%en Street Food|%flavor%e Tapas|ein %flavor%es Sushi-Gericht|ein %flavor%es Curry-Gericht|einen %flavor%en Braten|einen %flavor%en Auflauf|%flavor%e Wraps|ein %flavor%es Fingerfood-Gericht|ein %flavor%es Steak-Gericht|ein %flavor%es Dessert</de>
-							<en>breakfast|brunch|lunch|dinner|snack|appetizer|main course|side dish|soup|salad|sandwich|burger|pasta dish|pizza|stir-fry|barbecue|picnic|takeout dish|fast food dish|street food dish|tapas dish|sushi dish|curry|roast|casserole|wrap|finger food|steak dish|dessert</en>
-						</meal>
-					</variables>
-				</scripttemplate>
-				<scripttemplate index="5" product="2" licence_type="2" guid="96c4e9e3-ae4b-4859-9932-1b26e8c24d2b">
-					<title>
-						<de>%protein% mit %spice% ..??!</de>
-						<en>%protein% with %spice% ..??!</en>
-					</title>
-					<description>
-						<de>Die Köche kombinieren %protein% mit %spice% und versuchen %meal% zu kreiren. Ein unterhaltsames Geschmacksdesaster!</de>
-						<en>The chefs combine %protein% with %spice% to create a%flavor% %meal%. An entertaining flavor fiasco!</en>
-					</description>
-					<variables>
-						<protein>
-							<de>Huhn|Rindfleisch|Schweinefleisch|Lammfleisch|Fisch|Garnelen|Hummer|Krabben|Lachs|Thunfisch|Kalbfleisch|Truthahn|Ente|Wachtel|Kaninchen|Oktopus|Tintenfisch|Jakobsmuscheln|Muscheln|Miesmuscheln|Snappfisch|Katzenfisch|Tilapia|Sardellen|Schwertfisch|Austern|Garnelen|Kabeljau|Forelle|Karpfen|Schinken|Schellfisch|Bison|Gans|Hirsch|Sardinen|Kutteln|Niere|Leber|Tofu</de>
-							<en>chicken|beef|pork|lamb|fish|shrimp|lobster|crab|salmon|tuna|veal|turkey|duck|quail|rabbit|octopus|squid|scallops|clams|mussels|snapper|catfish|tilapia|anchovy|swordfish|oysters|prawns|cod|trout|carp|ham|haddock|bison|goose|venison|sardines|tripe|kidney|liver|tofu</en>
-						</protein>
-						<spice>
-							<de>Kreuzkümmel|Koriander|Kurkuma|Zimt|Paprika|Kardamom|Ingwer|Muskatnuss|Gewürznelken|Senf|Fenchel|Bockshornklee|Kümmel|Sternanis|schwarzem Pfeffer|weißem Pfeffer|Cayennepfeffer|Chilipulver|roten Pfefferflocken|Safran|Currypulver|Garam Masala|Five-Spice|Oregano|Thymian|Rosmarin|Basilikum|Petersilie|Dill|Minze|Salbei|Lorbeerblättern|Piment|Kürbisgewürz|Vanille|Knoblauchpulver|Zwiebelpulver|Selleriesalz|Koriandersamen|Mohnsamen|Paprikapulver|Cayennepfeffer|Konfitüre|Senf|Ketchup</de>
-							<en>cumin|coriander|turmeric|cinnamon|paprika|cardamom|ginger|nutmeg|cloves|mustard|fennel|fenugreek|caraway|star anise|black pepper|white pepper|cayenne pepper|chili powder|red pepper flakes|saffron|curry powder|garam masala|five-spice|oregano|thyme|rosemary|basil|parsley|dill|mint|sage|bay leaves|allspice|pumpkin spice|vanilla|garlic powder|onion powder|celery salt|coriander seeds|poppy seeds|paprika powder|cayenne|jelly|mustard|ketchup</en>
-						</spice>
-						<flavor>
-							<de>süß|sauer|scharf|salzig|bitter|herb|herzhaft|reichhaltig|kräuterhaft|rauchig|würzig|minzig|zitronig|erdig|fruchtig|blumig|pfeffrig|cremig|buttrig|nussig|knusprig|saftig|mild|kräftig|erfrischend|markant|aromatisch|exotisch|leicht süß|feurig|samten|saftig|leicht sauer|pikant|ausgewogen|sanft|charakteristisch|harmonisch</de>
-							<en> sweet| sour| spicy| salty| bitter| tangy| savory| rich|n herbaceous| smoky| zesty| minty| citrusy|n earthy| fruity| floral| peppery| creamy| buttery| nutty| crispy| juicy| mellow| tangy| refreshing| bold|n aromatic|n exotic| slightly sweet| fiery| velvety| succulent| slightly sour| pungent| balanced| mild| distinctive| harmonious</en>
-						</flavor>
-						<meal>
-							<de>ein %flavor%es Frühstück|einen %flavor%en Brunch|ein %flavor%es Mittagessen|ein %flavor%es Abendessen|%flavor%e Snacks|%flavor%e Vorspeisen|ein %flavor%es Hauptgericht|%flavor%e Beilagen|eine %flavor%e Suppe|einen %flavor%en Salat|ein %flavor%es Sandwich|einen %flavor%en Burger|ein %flavor%es Nudelgericht|eine %flavor%e Pizza|ein %flavor%es Pfannengericht|ein %flavor%es Barbecue|ein %flavor%es Picknick|ein %flavor%es Takeout-Gericht|ein %flavor%es Fast Food Gericht|%flavor%en Street Food|%flavor%e Tapas|ein %flavor%es Sushi-Gericht|ein %flavor%es Curry-Gericht|einen %flavor%en Braten|einen %flavor%en Auflauf|%flavor%e Wraps|ein %flavor%es Fingerfood-Gericht|ein %flavor%es Steak-Gericht|ein %flavor%es Dessert</de>
-							<en>breakfast|brunch|lunch|dinner|snack|appetizer|main course|side dish|soup|salad|sandwich|burger|pasta dish|pizza|stir-fry|barbecue|picnic|takeout dish|fast food dish|street food dish|tapas dish|sushi dish|curry|roast|casserole|wrap|finger food|steak dish|dessert</en>
-						</meal>
-					</variables>
+					<episodes value="6"/>
 				</scripttemplate>
 			</children>
 			<jobs>
@@ -308,7 +168,6 @@
 				<job index="3" function="2" required="1" gender="0"/>
 			</jobs>
 			<genres maingenre="100" subgenres="6,7"/>
-			<episodes min="6" max="6"/>
 			<blocks value="1"/>
 			<price min="30000" max="50000" slope="50"/>
 			<potential min="25" max="75" slope="50"/>
