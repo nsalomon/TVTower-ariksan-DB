@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <tvtdb>
+<!--TODO Falls für die Erzeugung von Teilen des Inhalts eine Text-KI eingesetzt wurde, sollte dies gekennzeichnet werden!-->
 	<version value="3" comment="Data entries by ariksan" />
-<scripttemplates>
-	<scripttemplate product="2" licence_type="3" guid="script-ariksan-mkw01" creator="9621" comment="inspired by German realtor docu soaps">
-		<title>
-			<de>%title% (%STATIONMAP:RANDOMCITY%)</de>
-			<en>%title% (%STATIONMAP:RANDOMCITY%)</en>
-		</title>
-		<description>
-<de>Makler versuchen Wohnungen und Häuser an Kunden mit ungewöhnlichen Ansprüchen zu verkaufen oder zu vermieten. Ob Geisterjäger oder Zirkusartisten - die skurrilen Kunden lassen die Makler an ihre Grenzen gehen und sorgen für jede Menge Unterhaltung.</de>
-<en>Watch as desperate realtors cater to the most outrageous requests from their quirky clients. From a treehouse for a family of 6, to a mansion for a pet, no request is too absurd. Who will find their dream home and who will be left out in the cold?</en>
-		</description>
+	<scripttemplates>
+		<scripttemplate product="2" licence_type="3" guid="script-ariksan-mkw" creator="9621" comment="inspired by German realtor docu soaps">
+			<title>
+				<de>%title% (%randomcity%)</de>
+				<en>%title% (%randomcity%)</en>
+			</title>
+			<description>
+				<de>Makler versuchen Wohnungen und Häuser an Kunden mit ungewöhnlichen Ansprüchen zu verkaufen oder zu vermieten. Ob Geisterjäger oder Zirkusartisten - die skurrilen Kunden lassen die Makler an ihre Grenzen gehen und sorgen für jede Menge Unterhaltung.</de>
+				<en>Watch as desperate realtors cater to the most outrageous requests from their quirky clients. From a treehouse for a family of 6, to a mansion for a pet, no request is too absurd. Who will find their dream home and who will be left out in the cold?</en>
+			</description>
 
-	<variables>
-		<title>
-			<de>Träumen, Planen, Pleitegehen|Zoff, Zank, Abbruchbude|Himmel, Hölle, Hinterhof|Pech, Pannen, Pfusch|Vermieten, Verkaufen, Verzweifeln|Rausch, Reue, Ratenzahlung|Luxus, Lügen, Leerstand|Wohnen, Wunder, Wahnsinn|Traumhaus, Tränen, Trennungsschmerz|Schimmel, Schäden, Rost|Düster, Trostlos, Öde|Ratenzahlung, Rost, Bankrott|Suchen, Finden, Blechen|Renovieren, Sanieren, Abkassieren</de>
-			<en>Dreaming, Planning, Bankruptcy|Conflict, Quarrel, Breakdown|Cheating, Building, Bankruptcy|Luxury, Lies, Vacancy|Excess, Regret, Installment Plan|Miracle, Madness, Living|Cheap, Big, Dangerous|Rent, Spent, Repent|Bore, Explore, Adore|Sign, Align, Decline|Rent, Buy, Cry|Live, Obtain, Groan|Lease, Purchase, Debt|Place, Embrace, Palatial-Grace</en>
-		</title>
-	</variables>
+			<variables>
+				<title>
+					<de>Träumen, Planen, Pleitegehen|Zoff, Zank, Abbruchbude|Himmel, Hölle, Hinterhof|Pech, Pannen, Pfusch|Vermieten, Verkaufen, Verzweifeln|Rausch, Reue, Ratenzahlung|Luxus, Lügen, Leerstand|Wohnen, Wunder, Wahnsinn|Traumhaus, Tränen, Trennungsschmerz|Schimmel, Schäden, Rost|Düster, Trostlos, Öde|Ratenzahlung, Rost, Bankrott|Suchen, Finden, Blechen|Renovieren, Sanieren, Abkassieren</de>
+					<en>Dreaming, Planning, Bankruptcy|Conflict, Quarrel, Breakdown|Cheating, Building, Bankruptcy|Luxury, Lies, Vacancy|Excess, Regret, Installment Plan|Miracle, Madness, Living|Cheap, Big, Dangerous|Rent, Spent, Repent|Bore, Explore, Adore|Sign, Align, Decline|Rent, Buy, Cry|Live, Obtain, Groan|Lease, Purchase, Debt|Place, Embrace, Palatial-Grace</en>
+				</title>
+				<randomcity>
+					<de>%STATIONMAP:RANDOMCITY%</de>
+				</randomcity>
+			</variables>
 			<children>
-				<scripttemplate index="0" product="2" licence_type="2" guid="17343b0c-aa63-474c-b156">
+				<scripttemplate index="0" product="2" licence_type="2" guid="script-ariksan-mkw01">
 					<title>
 						<de>%wohnobjekt%</de>
 						<en>%wohnobjekt%</en>
@@ -38,7 +42,7 @@
 										<en>a spacious single-family house|an exclusive estate|a classic villa|an idyllic country house|a stylish loft|a historic manor house|a modern townhouse|a rustic farmhouse|a cozy log cabin|a comfortable semi-detached house|a contemporary architect-designed house|an extravagant designer apartment|a dreamy lake cabin|an urban loft apartment|a romantic castle house|an impressive industrial monument|a generous bungalow|a timeless single-family house|an urban townhouse|a unique cave apartment|a cozy half-timbered house|a modern duplex apartment|a stylish country estate|an elegant town villa|a charming garden cottage|a futuristic residence|a rustic mountain house|a compact micro-home|a large castle estate|a charming thatched-roof house|a luxurious pool villa|a traditional farmhouse with barn|a modern glass house|a cozy bungalow with a fireplace|a historic half-timbered house|an unusual treehouse|a peaceful seaside apartment|a bright single-family house with a winter garden|a stylish designer loft|a traditional Japanese house|a gigantic birdhouse|an enchanting fairy tale castle|a noble hut in the forest|a glass igloo suite|a luxury boathouse on land|a floating villa with a shark aquarium|a majestic treehouse castle|a secret hideout in the skyscrapers|an unusual pyramid house|a futuristic spaceship loft|a rustic witch's house|a chic bird's nest with an infinity pool|a crazy haunted house apartment|a cozy beehive|a floating house on stilts|a futuristic moon base|a flying castle in the sky|a quirky tower house|an extravagant art house|a luxurious ice villa|a nostalgic camper van|a comfortable caravan on the highway|a romantic lighthouse apartment|a picturesque farmhouse with a witch's herb garden|a cute dollhouse with a pool|a mysterious castle in the fog|a cozy garden pavilion|an extraordinary circus tent apartment|an imaginative fairy tale village|a modern hobbit house|an original shipping container loft|a small circus wagon house|a cozy inn in the forest|an unusual cave apartment with a waterfall|a colorful houseboat|a cozy gingerbread house|a futuristic underwater palace|an old smuggler's hideout|a loud carousel apartment|a rustic log cabin on a deserted island</en>
 									</wohnobjekt>
 									<wohngrund>
-										<de>mit genügend Platz für fünf Katzen.|mit einer geheimen Schatzkammer.|für eine Hühnerzucht.|mit Seesicht.|mit einem Spielplatz.|um ein Museum einzurichten.|für ein zwielichtes Etablissement.|für eine Privatschule.|mit einer Rutsche ins Wohnzimmer.|mit Platz für eine Indoor-Gokart-Bahn.|um eine eigene Bowlingbahn zu bauen.|für den Start einer Yoga-Katzen-Zucht.|mit einem Wasserfall im Garten.|um eine Vampir-Kommune zu gründen.|mit einem Lift für den privaten Hubschrauber.|mit einem Geheimgang zum Nachbarn.|mit einem Geheimgang zum Nachbarn|mit einer Sauna für 20 Personen.|für die eigene Bungee-Jumping-Plattform.|mit einem eigenen Raum für Dinosaurier-Skelette.|um eine private Detektiv-Agentur zu betreiben.|mit einem begehbaren Kleiderschrank in der Größe einer Kirche.|mit einem Whirlpool auf dem Dach.|um eine Ritterburg nachzubauen.|auf einer privaten Insel.|für eine Riesenschlangenzucht.|mit genug Platz für eine Bücherei mit 10.000 Büchern.|für den Betrieb eines Hochseilgartens.|für eine Sammlung von antiken Uhren.|mit genügend Raum für eine Skulpturengalerie.|um eine Geisterbahn einzurichten.|für eine exklusive Whiskey-Bar.|für die Aufzucht von exotischen Pflanzen.|mit einer integrierten Sauna.|um eine Flugschule zu betreiben.|mit ausreichend Platz für eine Bowlingbahn.|für ein Yoga-Studio.|mit genug Platz für einen Indoor-Golfplatz.|um eine Töpferwerkstatt einzurichten.|für eine private Diskothek.|für eine Kostümausstellung.|für ein begehbares Terrarium.|mit Platz für einen Kinosaal.|um eine private Sternwarte zu betreiben.|mit genügend Raum für eine Musikschule.|um eine Indoor-Kletterhalle einzurichten.|für eine Pilzzucht.|mit genug Platz für einen Schießstand.|für eine Vogelzucht.|für ein eigenes Tonstudio.|für eine Weindegustationsbar.|um eine Kampfsportschule zu betreiben.|mit genug Platz für ein Schmuckatelier.|für eine Sammlung von antiken Waffen.|um eine eigene Schokoladenmanufaktur zu betreiben.|für eine Privatklinik.|mit genug Raum für ein Modelabel.|um eine eigene Brauerei einzurichten.|für die Aufzucht von exotischen Tieren.|mit genug Platz für eine Eislaufbahn.|um eine Modellbahnlandschaft zu bauen.|für ein exklusives Dinner-Theater.|mit genug Raum für ein Tattoo-Studio</de>
+										<de>mit genügend Platz für fünf Katzen.|mit einer geheimen Schatzkammer.|für eine Hühnerzucht.|mit Seesicht.|mit einem Spielplatz.|um ein Museum einzurichten.|für ein zwielichtes Etablissement.|für eine Privatschule.|mit einer Rutsche ins Wohnzimmer.|mit Platz für eine Indoor-Gokart-Bahn.|um eine eigene Bowlingbahn zu bauen.|für den Start einer Yoga-Katzen-Zucht.|mit einem Wasserfall im Garten.|um eine Vampir-Kommune zu gründen.|mit einem Lift für den privaten Hubschrauber.|mit einem Geheimgang zum Nachbarn.|mit einer Sauna für 20 Personen.|für die eigene Bungee-Jumping-Plattform.|mit einem eigenen Raum für Dinosaurier-Skelette.|um eine private Detektiv-Agentur zu betreiben.|mit einem begehbaren Kleiderschrank in der Größe einer Kirche.|mit einem Whirlpool auf dem Dach.|um eine Ritterburg nachzubauen.|auf einer privaten Insel.|für eine Riesenschlangenzucht.|mit genug Platz für eine Bücherei mit 10.000 Büchern.|für den Betrieb eines Hochseilgartens.|für eine Sammlung von antiken Uhren.|mit genügend Raum für eine Skulpturengalerie.|um eine Geisterbahn einzurichten.|für eine exklusive Whiskey-Bar.|für die Aufzucht von exotischen Pflanzen.|mit einer integrierten Sauna.|um eine Flugschule zu betreiben.|mit ausreichend Platz für eine Bowlingbahn.|für ein Yoga-Studio.|mit genug Platz für einen Indoor-Golfplatz.|um eine Töpferwerkstatt einzurichten.|für eine private Diskothek.|für eine Kostümausstellung.|für ein begehbares Terrarium.|mit Platz für einen Kinosaal.|um eine private Sternwarte zu betreiben.|mit genügend Raum für eine Musikschule.|um eine Indoor-Kletterhalle einzurichten.|für eine Pilzzucht.|mit genug Platz für einen Schießstand.|für eine Vogelzucht.|für ein eigenes Tonstudio.|für eine Weindegustationsbar.|um eine Kampfsportschule zu betreiben.|mit genug Platz für ein Schmuckatelier.|für eine Sammlung von antiken Waffen.|um eine eigene Schokoladenmanufaktur zu betreiben.|für eine Privatklinik.|mit genug Raum für ein Modelabel.|um eine eigene Brauerei einzurichten.|für die Aufzucht von exotischen Tieren.|mit genug Platz für eine Eislaufbahn.|um eine Modellbahnlandschaft zu bauen.|für ein exklusives Dinner-Theater.|mit genug Raum für ein Tattoo-Studio</de>
 										<en>with enough space for five cats.|with a secret treasure chamber.|for a chicken farm.|with a lake view.|with a playground.|to set up a museum.|for a shady establishment.|for a private school.|with a slide into the living room.|with enough space for an indoor go-kart track.|to build a bowling alley.|to start a yoga-cat breeding business.|with a waterfall in the garden.|to start a vampire commune.|with a private helicopter lift.|with a secret passage to the neighbor's house.|with a sauna for 20 people.|for a bungee jumping platform.|with a dedicated room for dinosaur skeletons.|to run a private detective agency.|with a walk-in closet the size of a church.|with a rooftop hot tub.|to build a medieval castle.|on a private island.|for a giant snake breeding operation.|with enough space for a library with 10,000 books.|for operating a high ropes course.|for a collection of antique clocks.|with enough room for a sculpture gallery.|to set up a haunted house.|for an exclusive whiskey bar.|for breeding exotic plants.|with an integrated sauna.|to run a flight school.|with enough space for a bowling alley.|for a yoga studio.|with enough space for an indoor golf course.|to set up a pottery workshop.|for a private disco.|for a costume exhibition.|for a walk-in terrarium.|with space for a movie theater.|to operate a private observatory.|with enough room for a music school.|to set up an indoor climbing gym.|for a mushroom farm.|with enough space for a shooting range.|for a bird breeding operation.|for a recording studio.|for a wine tasting bar.|to operate a martial arts school.|with enough space for a jewelry workshop.|for a collection of antique weapons.|to set up a chocolate factory.|for a private clinic.|with enough room for a fashion label.|to set up a brewery.|for breeding exotic animals.|with enough space for an ice skating rink.|to build a model railway landscape.|for an exclusive dinner theater.|with enough room for a tattoo studio.</en>
 									</wohngrund>
 									<suchende_person2>
@@ -59,7 +63,7 @@
 									</wohnfinder>
 							</variables>
 				</scripttemplate>
-				<scripttemplate index="1" product="2" licence_type="2" guid="68f7c4db-2b9c-43d3-a5e5">
+				<scripttemplate index="1" product="2" licence_type="2" guid="script-ariksan-mkw02">
 					<title>
 						<de>%wohnobjekt%</de>
 						<en>%wohnobjekt%</en>
@@ -349,7 +353,7 @@
 </jobs>
 			<data flags="16"/>	
 			<genres maingenre="6" subgenres="7" />
-			<episodes min="8" max="8" />
+			<episodes value="8" />
 			<blocks value="1" />
 			<price min="6000" max="13000" />
 			<potential min="26" max="58" />
@@ -377,11 +381,12 @@
 				<job index="0" function="1" required="1" gender="0" />
 				<job index="1" function="4" required="1" gender="0" />
 				<job index="2" function="8" required="1" gender="1" />
-				<job index="3" function="2048" required="1" gender="2" />
+				<job index="3" function="2048" required="1" gender="2" /><!--2048 ist kein unterstützer Job!-->
 				<job index="4" function="64" required="1" gender="0" />
 				<job index="5" function="64" required="1" gender="0" />
 				<job index="6" function="16" required="1" gender="0" />
 			</jobs>
+			<!--TODO licenceflags gibt es nicht - production_licence_flags und für die ist Wert 512 ungültig - was war die Intention?, -->
 			<data flags="9" licenceflags="4" production_broadcast_limit="1" live_date="3,5,20,20" production_licence_flags="512"/>
 			<genres maingenre="100" />
 			<blocks min="2" max="3" slope="90" />
@@ -392,7 +397,7 @@
 			<speed min="55" max="90" slope="60" />
 			<studio_size value="3" />
 		</scripttemplate>
-					<scripttemplate product="2" licence_type="3" guid="script-ariksan-flavor01" creator="9621" comment="very loosly inspired by kitchen nightmares TODO change job to chef when avaialble">
+					<scripttemplate product="2" licence_type="3" guid="script-ariksan-flavor" creator="9621" comment="very loosly inspired by kitchen nightmares TODO change job to chef when avaialble">
 			<title>
 				<de>%title% - %WORLDTIME:YEAR% Edition</de>
 				<en>%title% - %WORLDTIME:YEAR% Edition</en>
@@ -408,7 +413,7 @@
 				</title>
 			</variables>
 			<children>
-				<scripttemplate index="0" product="2" licence_type="2" guid="f8b2670f-0fc7-4c34-88c2-6d348a1544e0">
+				<scripttemplate index="0" product="2" licence_type="2" guid="script-ariksan-flavor01">
 					<title>
 						<de>%protein% mit %spice% ..??!</de>
 						<en>%protein% with %spice% ..??!</en>
@@ -609,26 +614,21 @@
 				</title>
 				<person1>
 					<de>%PERSONGENERATOR_FIRSTNAME(US,1)%</de>
-					<en>%PERSONGENERATOR_FIRSTNAME(US,1)%</en>
 				</person1>
 				<person2>
 					<de>%PERSONGENERATOR_FIRSTNAME(US,2)%</de>
-					<en>%PERSONGENERATOR_FIRSTNAME(US,2)%</en>
 				</person2>
 				<person3>
 					<de>%PERSONGENERATOR_FIRSTNAME(IT,1)%</de>
-					<en>%PERSONGENERATOR_FIRSTNAME(IT,1)%</en>
 				</person3>
 				<person4>
 					<de>%PERSONGENERATOR_FIRSTNAME(DE,2)%</de>
-					<en>%PERSONGENERATOR_FIRSTNAME(DE,2)%</en>
 				</person4>
 			</variables>
 			<children>
 				<scripttemplate index="0" product="2" licence_type="2" guid="f7a8f07e-79ad-49dc-8a9c-1024f2802b72">
 					<title>
 						<de>%STATIONMAP:RANDOMCITY%</de>
-						<en>%STATIONMAP:RANDOMCITY%</en>
 					</title>
 					<description>
 						<de>%person1% und %person2% zanken sich mit %person3% um %treasure%. %person4% hat Glück im Unglück und kann %junk% verhökern.</de>
@@ -648,27 +648,15 @@
 				<scripttemplate index="1" product="2" licence_type="2" guid="6c5e5191-7b59-4f02-84dd-aa2737259e70">
 					<title>
 						<de>%STATIONMAP:RANDOMCITY%</de>
-						<en>%STATIONMAP:RANDOMCITY%</en>
 					</title>
 					<description>
 						<de>Der Auktionator hat sich verfahren. Also übernimmt %person4% seine Rolle. Chaos pur! %person1% und %person2% bieten mit %person3% um die Wette.</de>
 						<en>The auctioneer has gotten lost. %person4% takes over his role. Chaos ensues! %person1% and %person2% compete against %person3%.</en>
 					</description>
-						<variables>
-							<treasure>
-								<de>eine Luxus-Uhr|Diamantschmuck|antike Möbel|ein feines Kunstgemälde|eine Designer-Handtasche|eine Vintage-Weinflasche|eine Sammlerausgabe-Münze|eine seltene Briefmarke|eine limitierte Auflage von Sport-Memorabilia|antikes Porzellan|ein Vintage-Musikinstrument|ein Vintage-Auto|einen Goldbarren|einen Edelstein|ein wertvolles Comic-Buch|ein authentisches Autogramm eines Musikers|eine antike Feuerwaffe|eine Vintage-Kamera|eine Sammler-Tauschkarte|ein seltenes Buch|ein historisches Manuskript|einen antiken Gegenstand|eine Vintage-Vinylplatte|feines Porzellan|einen exklusiven Designer-Mantel|ein Vintage-Filmposter|feines Silberbesteck|einen aufwendigen Kronleuchter|einen handgefertigten Teppich|exquisites Kristallglas|eine antike Skulptur|ein einzigartiges Antiquitätenstück|einen luxuriösen Pelzmantel|ein teures elektronisches Gerät|einen Vintage-Motorrad|eine wertvolle Sportausrüstung|exklusiven feinen Wein|eine Edelmetallmünze|hochwertige Audiogeräte|eine Uhr in limitierter Auflage|exquisiten Handwerkskunst-Schmuck|eine antike Taschenuhr</de>
-								<en>a luxury watch|diamond jewelry|an antique furniture|a fine art painting|a designer handbag|a vintage wine bottle|a collector's edition coin|a rare stamp|a limited edition sports memorabilia|an antique porcelain|a vintage musical instrument|a vintage car|gold bullion|a precious gemstone|a valuable comic book|an authentic autograph from a famous musician|an antique firearm|a vintage camera|a collectible trading card|a rare book|a historic manuscript|an ancient artifact|a vintage vinyl record|fine china|an exclusive designer coat|a vintage movie poster|fine silverware|an ornate chandelier|a handcrafted rug|exquisite crystal glassware|an antique sculpture|a one-of-a-kind antique|a luxurious fur coat|an expensive electronic gadget|a vintage motorcycle|valuable sports equipment|an exclusive fine wine|a precious metal coin|high-end audio equipment|a limited edition watch|exquisite craftsmanship jewelry|an antique pocket watch</en>
-							</treasure>
-							<junk>
-								<de>eine alte Zeitung|ein kaputtes Möbelstück|nicht übereinstimmende Socken|abgelaufene Konserven|zerbrochene Spiegel|ein rostiges Fahrrad|abgetragene Schuhe|eine verstaubte Schallplatte|ein veraltetes VHS-Band|eine abgesplitterte Schale|ein verblichenes Gemälde|ein veralteter Elektroartikel|verknotete Kabel|eine leere Plastikflasche|ein stumpfes Küchenutensil|ein veraltetes Kassettenband|beschädigtes Gepäck|eine zerkratzte CD|eine veraltete Computer-Tastatur|zerrissene Kleidung|kaputtes Spielzeug|ein ausgefranstes Stromkabel|eine durchgelegene Matratze|ein leeres Glasgefäß|eine gesprungene Keramikfigur|abgelaufene Medizin|ein veraltetes Magazin|ein ungenutztes Trainingsgerät|zerbrochene Bilderrahmen|ein ausgetrockneter Stift|verblichene Poster|ein defektes Küchengerät|ein beschädigtes Brettspiel|ein abgenutzter Teppich|Kisten voller abgelaufener Beauty-Produkte|ein veraltetes Mobiltelefon|zersplittertes Glasgeschirr|eine kaputte Uhr|verblichene Weihnachtsdekorationen|ein abgenutztes Kissen|eine gesprungene Porzellanpuppe</de>
-								<en>an old newspaper|a broken furniture|mismatched socks|expired canned food|a cracked mirror|a rusty bicycle|worn-out shoes|a dusty vinyl record|an obsolete VHS tape|a chipped dish|a faded painting|an outdated electronic|tangled cables|an empty plastic bottle|a dull kitchen utensil|an obsolete cassette tape|damaged luggage|a scratched CD|an obsolete computer keyboard|torn clothing|a broken toy|frayed electrical cord|a worn-out mattress|an empty glass jar|a cracked ceramic figurine|expired medicine|an outdated magazine|unused exercise equipment|a broken picture frame|a dried-out pen|faded posters|a defunct kitchen appliance|a damaged board game|a worn-out carpet|boxes full of expired beauty products|an obsolete cellphone|some shattered glassware|a broken clock|faded holiday decorations|a worn-out pillow|a cracked porcelain doll</en>
-							</junk>
-						</variables>
 				</scripttemplate>
-                <scripttemplate index="2" product="2" licence_type="2" guid="d79fde4c-9c6a-4b2c-90b4-5cc78150b505">
+				<scripttemplate index="2" product="2" licence_type="2" guid="d79fde4c-9c6a-4b2c-90b4-5cc78150b505">
 					<title>
 						<de>%STATIONMAP:RANDOMCITY%</de>
-						<en>%STATIONMAP:RANDOMCITY%</en>
 					</title>
 					<description>
 						<de>%person1% und %person2% haben sich zerstritten und bieten heute gegeneinander. %person4% zieht den Jackpot und sichert sich %treasure%.</de>
@@ -679,17 +667,13 @@
 								<de>eine Luxus-Uhr|Diamantschmuck|antike Möbel|ein feines Kunstgemälde|eine Designer-Handtasche|eine Vintage-Weinflasche|eine Sammlerausgabe-Münze|eine seltene Briefmarke|eine limitierte Auflage von Sport-Memorabilia|antikes Porzellan|ein Vintage-Musikinstrument|ein Vintage-Auto|einen Goldbarren|einen Edelstein|ein wertvolles Comic-Buch|ein authentisches Autogramm eines Musikers|eine antike Feuerwaffe|eine Vintage-Kamera|eine Sammler-Tauschkarte|ein seltenes Buch|ein historisches Manuskript|einen antiken Gegenstand|eine Vintage-Vinylplatte|feines Porzellan|einen exklusiven Designer-Mantel|ein Vintage-Filmposter|feines Silberbesteck|einen aufwendigen Kronleuchter|einen handgefertigten Teppich|exquisites Kristallglas|eine antike Skulptur|ein einzigartiges Antiquitätenstück|einen luxuriösen Pelzmantel|ein teures elektronisches Gerät|einen Vintage-Motorrad|eine wertvolle Sportausrüstung|exklusiven feinen Wein|eine Edelmetallmünze|hochwertige Audiogeräte|eine Uhr in limitierter Auflage|exquisiten Handwerkskunst-Schmuck|eine antike Taschenuhr</de>
 								<en>a luxury watch|diamond jewelry|an antique furniture|a fine art painting|a designer handbag|a vintage wine bottle|a collector's edition coin|a rare stamp|a limited edition sports memorabilia|an antique porcelain|a vintage musical instrument|a vintage car|gold bullion|a precious gemstone|a valuable comic book|an authentic autograph from a famous musician|an antique firearm|a vintage camera|a collectible trading card|a rare book|a historic manuscript|an ancient artifact|a vintage vinyl record|fine china|an exclusive designer coat|a vintage movie poster|fine silverware|an ornate chandelier|a handcrafted rug|exquisite crystal glassware|an antique sculpture|a one-of-a-kind antique|a luxurious fur coat|an expensive electronic gadget|a vintage motorcycle|valuable sports equipment|an exclusive fine wine|a precious metal coin|high-end audio equipment|a limited edition watch|exquisite craftsmanship jewelry|an antique pocket watch</en>
 							</treasure>
-							<junk>
-								<de>eine alte Zeitung|ein kaputtes Möbelstück|nicht übereinstimmende Socken|abgelaufene Konserven|einen zerbrochenen Spiegel|ein rostiges Fahrrad|abgetragene Schuhe|eine verstaubte Schallplatte|ein veraltetes VHS-Band|eine abgesplitterte Schale|ein verblichenes Gemälde|ein veralteter Elektroartikel|verknotete Kabel|eine leere Plastikflasche|ein stumpfes Küchenutensil|ein veraltetes Kassettenband|beschädigtes Gepäck|eine zerkratzte CD|eine veraltete Computer-Tastatur|zerrissene Kleidung|kaputtes Spielzeug|ein ausgefranstes Stromkabel|eine durchgelegene Matratze|ein leeres Glasgefäß|eine gesprungene Keramikfigur|abgelaufene Medizin|ein veraltetes Magazin|ein ungenutztes Trainingsgerät|einen zerbrochenen Bilderrahmen|ein ausgetrockneter Stift|verblichene Poster|ein defektes Küchengerät|ein beschädigtes Brettspiel|ein abgenutzter Teppich|Kisten voller abgelaufener Beauty-Produkte|ein veraltetes Mobiltelefon|etwas zersplittertes Glasgeschirr|eine kaputte Uhr|verblichene Weihnachtsdekorationen|ein abgenutztes Kissen|eine gesprungene Porzellanpuppe</de>
-								<en>an old newspaper|a broken furniture|mismatched socks|expired canned food|a cracked mirror|a rusty bicycle|worn-out shoes|a dusty vinyl record|an obsolete VHS tape|a chipped dish|a faded painting|an outdated electronic|tangled cables|an empty plastic bottle|a dull kitchen utensil|an obsolete cassette tape|damaged luggage|a scratched CD|an obsolete computer keyboard|torn clothing|a broken toy|frayed electrical cord|a worn-out mattress|an empty glass jar|a cracked ceramic figurine|expired medicine|an outdated magazine|unused exercise equipment|a broken picture frame|a dried-out pen|faded posters|a defunct kitchen appliance|a damaged board game|a worn-out carpet|boxes full of expired beauty products|an obsolete cellphone|some shattered glassware|a broken clock|faded holiday decorations|a worn-out pillow|a cracked porcelain doll</en>
-							</junk>
 						</variables>
 				</scripttemplate>
 				<scripttemplate index="3" product="2" licence_type="2" guid="90d07145-3341-4917-b20e-4b2d12d37e89">
 					<title>
 						<de>%STATIONMAP:RANDOMCITY%</de>
-						<en>%STATIONMAP:RANDOMCITY%</en>
 					</title>
+					<!--TODO soll treasure hier der gleiche Gegenstand wie in der vorigen Folge sein?-->
 					<description>
 						<de>%person1% und %person2% haben sich noch immer nicht versöhnt. %person3% kippt einen Kaffee auf %treasure%.</de>
 						<en>%person1% and %person2% still haven't reconciled. %person3% spills coffee on %treasure%.</en>
@@ -699,16 +683,11 @@
 								<de>eine Luxus-Uhr|Diamantschmuck|antike Möbel|ein feines Kunstgemälde|eine Designer-Handtasche|eine Vintage-Weinflasche|eine Sammlerausgabe-Münze|eine seltene Briefmarke|eine limitierte Auflage von Sport-Memorabilia|antikes Porzellan|ein Vintage-Musikinstrument|ein Vintage-Auto|einen Goldbarren|einen Edelstein|ein wertvolles Comic-Buch|ein authentisches Autogramm eines Musikers|eine antike Feuerwaffe|eine Vintage-Kamera|eine Sammler-Tauschkarte|ein seltenes Buch|ein historisches Manuskript|einen antiken Gegenstand|eine Vintage-Vinylplatte|feines Porzellan|einen exklusiven Designer-Mantel|ein Vintage-Filmposter|feines Silberbesteck|einen aufwendigen Kronleuchter|einen handgefertigten Teppich|exquisites Kristallglas|eine antike Skulptur|ein einzigartiges Antiquitätenstück|einen luxuriösen Pelzmantel|ein teures elektronisches Gerät|einen Vintage-Motorrad|eine wertvolle Sportausrüstung|exklusiven feinen Wein|eine Edelmetallmünze|hochwertige Audiogeräte|eine Uhr in limitierter Auflage|exquisiten Handwerkskunst-Schmuck|eine antike Taschenuhr</de>
 								<en>a luxury watch|diamond jewelry|an antique furniture|a fine art painting|a designer handbag|a vintage wine bottle|a collector's edition coin|a rare stamp|a limited edition sports memorabilia|an antique porcelain|a vintage musical instrument|a vintage car|gold bullion|a precious gemstone|a valuable comic book|an authentic autograph from a famous musician|an antique firearm|a vintage camera|a collectible trading card|a rare book|a historic manuscript|an ancient artifact|a vintage vinyl record|fine china|an exclusive designer coat|a vintage movie poster|fine silverware|an ornate chandelier|a handcrafted rug|exquisite crystal glassware|an antique sculpture|a one-of-a-kind antique|a luxurious fur coat|an expensive electronic gadget|a vintage motorcycle|valuable sports equipment|an exclusive fine wine|a precious metal coin|high-end audio equipment|a limited edition watch|exquisite craftsmanship jewelry|an antique pocket watch</en>
 							</treasure>
-							<junk>
-								<de>eine alte Zeitung|ein kaputtes Möbelstück|nicht übereinstimmende Socken|abgelaufene Konserven|einen zerbrochenen Spiegel|ein rostiges Fahrrad|abgetragene Schuhe|eine verstaubte Schallplatte|ein veraltetes VHS-Band|eine abgesplitterte Schale|ein verblichenes Gemälde|ein veralteter Elektroartikel|verknotete Kabel|eine leere Plastikflasche|ein stumpfes Küchenutensil|ein veraltetes Kassettenband|beschädigtes Gepäck|eine zerkratzte CD|eine veraltete Computer-Tastatur|zerrissene Kleidung|kaputtes Spielzeug|ein ausgefranstes Stromkabel|eine durchgelegene Matratze|ein leeres Glasgefäß|eine gesprungene Keramikfigur|abgelaufene Medizin|ein veraltetes Magazin|ein ungenutztes Trainingsgerät|einen zerbrochenen Bilderrahmen|ein ausgetrockneter Stift|verblichene Poster|ein defektes Küchengerät|ein beschädigtes Brettspiel|ein abgenutzter Teppich|Kisten voller abgelaufener Beauty-Produkte|ein veraltetes Mobiltelefon|etwas zersplittertes Glasgeschirr|eine kaputte Uhr|verblichene Weihnachtsdekorationen|ein abgenutztes Kissen|eine gesprungene Porzellanpuppe</de>
-								<en>an old newspaper|a broken furniture|mismatched socks|expired canned food|a cracked mirror|a rusty bicycle|worn-out shoes|a dusty vinyl record|an obsolete VHS tape|a chipped dish|a faded painting|an outdated electronic|tangled cables|an empty plastic bottle|a dull kitchen utensil|an obsolete cassette tape|damaged luggage|a scratched CD|an obsolete computer keyboard|torn clothing|a broken toy|frayed electrical cord|a worn-out mattress|an empty glass jar|a cracked ceramic figurine|expired medicine|an outdated magazine|unused exercise equipment|a broken picture frame|a dried-out pen|faded posters|a defunct kitchen appliance|a damaged board game|a worn-out carpet|boxes full of expired beauty products|an obsolete cellphone|some shattered glassware|a broken clock|faded holiday decorations|a worn-out pillow|a cracked porcelain doll</en>
-							</junk>
 						</variables>
 				</scripttemplate>
 				<scripttemplate index="4" product="2" licence_type="2" guid="a92e7b6e-ebc1-4f6a-b9d0-1364beef0c34">
 					<title>
 						<de>%STATIONMAP:RANDOMCITY%</de>
-						<en>%STATIONMAP:RANDOMCITY%</en>
 					</title>
 					<description>
 						<de>%person1% und %person2% haben sich insgeheim versöhnt und tricksen alle aus. Sie finden %treasure%.</de>
@@ -719,16 +698,11 @@
 								<de>eine Luxus-Uhr|Diamantschmuck|antike Möbel|ein feines Kunstgemälde|eine Designer-Handtasche|eine Vintage-Weinflasche|eine Sammlerausgabe-Münze|eine seltene Briefmarke|eine limitierte Auflage von Sport-Memorabilia|antikes Porzellan|ein Vintage-Musikinstrument|ein Vintage-Auto|einen Goldbarren|einen Edelstein|ein wertvolles Comic-Buch|ein authentisches Autogramm eines Musikers|eine antike Feuerwaffe|eine Vintage-Kamera|eine Sammler-Tauschkarte|ein seltenes Buch|ein historisches Manuskript|einen antiken Gegenstand|eine Vintage-Vinylplatte|feines Porzellan|einen exklusiven Designer-Mantel|ein Vintage-Filmposter|feines Silberbesteck|einen aufwendigen Kronleuchter|einen handgefertigten Teppich|exquisites Kristallglas|eine antike Skulptur|ein einzigartiges Antiquitätenstück|einen luxuriösen Pelzmantel|ein teures elektronisches Gerät|einen Vintage-Motorrad|eine wertvolle Sportausrüstung|exklusiven feinen Wein|eine Edelmetallmünze|hochwertige Audiogeräte|eine Uhr in limitierter Auflage|exquisiten Handwerkskunst-Schmuck|eine antike Taschenuhr</de>
 								<en>a luxury watch|diamond jewelry|an antique furniture|a fine art painting|a designer handbag|a vintage wine bottle|a collector's edition coin|a rare stamp|a limited edition sports memorabilia|an antique porcelain|a vintage musical instrument|a vintage car|gold bullion|a precious gemstone|a valuable comic book|an authentic autograph from a famous musician|an antique firearm|a vintage camera|a collectible trading card|a rare book|a historic manuscript|an ancient artifact|a vintage vinyl record|fine china|an exclusive designer coat|a vintage movie poster|fine silverware|an ornate chandelier|a handcrafted rug|exquisite crystal glassware|an antique sculpture|a one-of-a-kind antique|a luxurious fur coat|an expensive electronic gadget|a vintage motorcycle|valuable sports equipment|an exclusive fine wine|a precious metal coin|high-end audio equipment|a limited edition watch|exquisite craftsmanship jewelry|an antique pocket watch</en>
 							</treasure>
-							<junk>
-								<de>eine alte Zeitung|ein kaputtes Möbelstück|nicht übereinstimmende Socken|abgelaufene Konserven|einen zerbrochenen Spiegel|ein rostiges Fahrrad|abgetragene Schuhe|eine verstaubte Schallplatte|ein veraltetes VHS-Band|eine abgesplitterte Schale|ein verblichenes Gemälde|ein veralteter Elektroartikel|verknotete Kabel|eine leere Plastikflasche|ein stumpfes Küchenutensil|ein veraltetes Kassettenband|beschädigtes Gepäck|eine zerkratzte CD|eine veraltete Computer-Tastatur|zerrissene Kleidung|kaputtes Spielzeug|ein ausgefranstes Stromkabel|eine durchgelegene Matratze|ein leeres Glasgefäß|eine gesprungene Keramikfigur|abgelaufene Medizin|ein veraltetes Magazin|ein ungenutztes Trainingsgerät|einen zerbrochenen Bilderrahmen|ein ausgetrockneter Stift|verblichene Poster|ein defektes Küchengerät|ein beschädigtes Brettspiel|ein abgenutzter Teppich|Kisten voller abgelaufener Beauty-Produkte|ein veraltetes Mobiltelefon|etwas zersplittertes Glasgeschirr|eine kaputte Uhr|verblichene Weihnachtsdekorationen|ein abgenutztes Kissen|eine gesprungene Porzellanpuppe</de>
-								<en>an old newspaper|a broken furniture|mismatched socks|expired canned food|a cracked mirror|a rusty bicycle|worn-out shoes|a dusty vinyl record|an obsolete VHS tape|a chipped dish|a faded painting|an outdated electronic|tangled cables|an empty plastic bottle|a dull kitchen utensil|an obsolete cassette tape|damaged luggage|a scratched CD|an obsolete computer keyboard|torn clothing|a broken toy|frayed electrical cord|a worn-out mattress|an empty glass jar|a cracked ceramic figurine|expired medicine|an outdated magazine|unused exercise equipment|a broken picture frame|a dried-out pen|faded posters|a defunct kitchen appliance|a damaged board game|a worn-out carpet|boxes full of expired beauty products|an obsolete cellphone|some shattered glassware|a broken clock|faded holiday decorations|a worn-out pillow|a cracked porcelain doll</en>
-							</junk>
 						</variables>
 				</scripttemplate>
 				<scripttemplate index="5" product="2" licence_type="2" guid="2f94a119-5a4f-4fe1-ae7a-92e6f3e4c15a">
 					<title>
 						<de>%STATIONMAP:RANDOMCITY%</de>
-						<en>%STATIONMAP:RANDOMCITY%</en>
 					</title>
 					<description>
 						<de>Ein neuer Bieter räumt ab. %person1%, %person2% und %person4% sehen zu, wie er %treasure% findet.</de>
@@ -739,51 +713,25 @@
 								<de>eine Luxus-Uhr|Diamantschmuck|antike Möbel|ein feines Kunstgemälde|eine Designer-Handtasche|eine Vintage-Weinflasche|eine Sammlerausgabe-Münze|eine seltene Briefmarke|eine limitierte Auflage von Sport-Memorabilia|antikes Porzellan|ein Vintage-Musikinstrument|ein Vintage-Auto|einen Goldbarren|einen Edelstein|ein wertvolles Comic-Buch|ein authentisches Autogramm eines Musikers|eine antike Feuerwaffe|eine Vintage-Kamera|eine Sammler-Tauschkarte|ein seltenes Buch|ein historisches Manuskript|einen antiken Gegenstand|eine Vintage-Vinylplatte|feines Porzellan|einen exklusiven Designer-Mantel|ein Vintage-Filmposter|feines Silberbesteck|einen aufwendigen Kronleuchter|einen handgefertigten Teppich|exquisites Kristallglas|eine antike Skulptur|ein einzigartiges Antiquitätenstück|einen luxuriösen Pelzmantel|ein teures elektronisches Gerät|einen Vintage-Motorrad|eine wertvolle Sportausrüstung|exklusiven feinen Wein|eine Edelmetallmünze|hochwertige Audiogeräte|eine Uhr in limitierter Auflage|exquisiten Handwerkskunst-Schmuck|eine antike Taschenuhr</de>
 								<en>a luxury watch|diamond jewelry|an antique furniture|a fine art painting|a designer handbag|a vintage wine bottle|a collector's edition coin|a rare stamp|a limited edition sports memorabilia|an antique porcelain|a vintage musical instrument|a vintage car|gold bullion|a precious gemstone|a valuable comic book|an authentic autograph from a famous musician|an antique firearm|a vintage camera|a collectible trading card|a rare book|a historic manuscript|an ancient artifact|a vintage vinyl record|fine china|an exclusive designer coat|a vintage movie poster|fine silverware|an ornate chandelier|a handcrafted rug|exquisite crystal glassware|an antique sculpture|a one-of-a-kind antique|a luxurious fur coat|an expensive electronic gadget|a vintage motorcycle|valuable sports equipment|an exclusive fine wine|a precious metal coin|high-end audio equipment|a limited edition watch|exquisite craftsmanship jewelry|an antique pocket watch</en>
 							</treasure>
-							<junk>
-								<de>eine alte Zeitung|ein kaputtes Möbelstück|nicht übereinstimmende Socken|abgelaufene Konserven|einen zerbrochenen Spiegel|ein rostiges Fahrrad|abgetragene Schuhe|eine verstaubte Schallplatte|ein veraltetes VHS-Band|eine abgesplitterte Schale|ein verblichenes Gemälde|ein veralteter Elektroartikel|verknotete Kabel|eine leere Plastikflasche|ein stumpfes Küchenutensil|ein veraltetes Kassettenband|beschädigtes Gepäck|eine zerkratzte CD|eine veraltete Computer-Tastatur|zerrissene Kleidung|kaputtes Spielzeug|ein ausgefranstes Stromkabel|eine durchgelegene Matratze|ein leeres Glasgefäß|eine gesprungene Keramikfigur|abgelaufene Medizin|ein veraltetes Magazin|ein ungenutztes Trainingsgerät|einen zerbrochenen Bilderrahmen|ein ausgetrockneter Stift|verblichene Poster|ein defektes Küchengerät|ein beschädigtes Brettspiel|ein abgenutzter Teppich|Kisten voller abgelaufener Beauty-Produkte|ein veraltetes Mobiltelefon|etwas zersplittertes Glasgeschirr|eine kaputte Uhr|verblichene Weihnachtsdekorationen|ein abgenutztes Kissen|eine gesprungene Porzellanpuppe</de>
-								<en>an old newspaper|a broken furniture|mismatched socks|expired canned food|a cracked mirror|a rusty bicycle|worn-out shoes|a dusty vinyl record|an obsolete VHS tape|a chipped dish|a faded painting|an outdated electronic|tangled cables|an empty plastic bottle|a dull kitchen utensil|an obsolete cassette tape|damaged luggage|a scratched CD|an obsolete computer keyboard|torn clothing|a broken toy|frayed electrical cord|a worn-out mattress|an empty glass jar|a cracked ceramic figurine|expired medicine|an outdated magazine|unused exercise equipment|a broken picture frame|a dried-out pen|faded posters|a defunct kitchen appliance|a damaged board game|a worn-out carpet|boxes full of expired beauty products|an obsolete cellphone|some shattered glassware|a broken clock|faded holiday decorations|a worn-out pillow|a cracked porcelain doll</en>
-							</junk>
 						</variables>
 				</scripttemplate>
 				<scripttemplate index="6" product="2" licence_type="2" guid="e85e65b6-1c87-49a7-b9da-d9c2f97f3e8b">
 					<title>
 						<de>%STATIONMAP:RANDOMCITY%</de>
-						<en>%STATIONMAP:RANDOMCITY%</en>
 					</title>
 					<description>
 						<de>Skandal, der neue Bieter ist da. %person1% und %person2% schäumen vor Wut. %person4% schafft es doch noch eine Lagereinheit zu ergattern.</de>
 						<en>The new bidder returns triumphantly. Frustration boils within %person1% and %person2%. However, %person4% manages to secure a storage unit.</en>
 					</description>
-						<variables>
-							<treasure>
-								<de>eine Luxus-Uhr|Diamantschmuck|antike Möbel|ein feines Kunstgemälde|eine Designer-Handtasche|eine Vintage-Weinflasche|eine Sammlerausgabe-Münze|eine seltene Briefmarke|eine limitierte Auflage von Sport-Memorabilia|antikes Porzellan|ein Vintage-Musikinstrument|ein Vintage-Auto|einen Goldbarren|einen Edelstein|ein wertvolles Comic-Buch|ein authentisches Autogramm eines Musikers|eine antike Feuerwaffe|eine Vintage-Kamera|eine Sammler-Tauschkarte|ein seltenes Buch|ein historisches Manuskript|einen antiken Gegenstand|eine Vintage-Vinylplatte|feines Porzellan|einen exklusiven Designer-Mantel|ein Vintage-Filmposter|feines Silberbesteck|einen aufwendigen Kronleuchter|einen handgefertigten Teppich|exquisites Kristallglas|eine antike Skulptur|ein einzigartiges Antiquitätenstück|einen luxuriösen Pelzmantel|ein teures elektronisches Gerät|einen Vintage-Motorrad|eine wertvolle Sportausrüstung|exklusiven feinen Wein|eine Edelmetallmünze|hochwertige Audiogeräte|eine Uhr in limitierter Auflage|exquisiten Handwerkskunst-Schmuck|eine antike Taschenuhr</de>
-								<en>a luxury watch|diamond jewelry|an antique furniture|a fine art painting|a designer handbag|a vintage wine bottle|a collector's edition coin|a rare stamp|a limited edition sports memorabilia|an antique porcelain|a vintage musical instrument|a vintage car|gold bullion|a precious gemstone|a valuable comic book|an authentic autograph from a famous musician|an antique firearm|a vintage camera|a collectible trading card|a rare book|a historic manuscript|an ancient artifact|a vintage vinyl record|fine china|an exclusive designer coat|a vintage movie poster|fine silverware|an ornate chandelier|a handcrafted rug|exquisite crystal glassware|an antique sculpture|a one-of-a-kind antique|a luxurious fur coat|an expensive electronic gadget|a vintage motorcycle|valuable sports equipment|an exclusive fine wine|a precious metal coin|high-end audio equipment|a limited edition watch|exquisite craftsmanship jewelry|an antique pocket watch</en>
-							</treasure>
-							<junk>
-								<de>eine alte Zeitung|ein kaputtes Möbelstück|nicht übereinstimmende Socken|abgelaufene Konserven|einen zerbrochenen Spiegel|ein rostiges Fahrrad|abgetragene Schuhe|eine verstaubte Schallplatte|ein veraltetes VHS-Band|eine abgesplitterte Schale|ein verblichenes Gemälde|ein veralteter Elektroartikel|verknotete Kabel|eine leere Plastikflasche|ein stumpfes Küchenutensil|ein veraltetes Kassettenband|beschädigtes Gepäck|eine zerkratzte CD|eine veraltete Computer-Tastatur|zerrissene Kleidung|kaputtes Spielzeug|ein ausgefranstes Stromkabel|eine durchgelegene Matratze|ein leeres Glasgefäß|eine gesprungene Keramikfigur|abgelaufene Medizin|ein veraltetes Magazin|ein ungenutztes Trainingsgerät|einen zerbrochenen Bilderrahmen|ein ausgetrockneter Stift|verblichene Poster|ein defektes Küchengerät|ein beschädigtes Brettspiel|ein abgenutzter Teppich|Kisten voller abgelaufener Beauty-Produkte|ein veraltetes Mobiltelefon|etwas zersplittertes Glasgeschirr|eine kaputte Uhr|verblichene Weihnachtsdekorationen|ein abgenutztes Kissen|eine gesprungene Porzellanpuppe</de>
-								<en>an old newspaper|a broken furniture|mismatched socks|expired canned food|a cracked mirror|a rusty bicycle|worn-out shoes|a dusty vinyl record|an obsolete VHS tape|a chipped dish|a faded painting|an outdated electronic|tangled cables|an empty plastic bottle|a dull kitchen utensil|an obsolete cassette tape|damaged luggage|a scratched CD|an obsolete computer keyboard|torn clothing|a broken toy|frayed electrical cord|a worn-out mattress|an empty glass jar|a cracked ceramic figurine|expired medicine|an outdated magazine|unused exercise equipment|a broken picture frame|a dried-out pen|faded posters|a defunct kitchen appliance|a damaged board game|a worn-out carpet|boxes full of expired beauty products|an obsolete cellphone|some shattered glassware|a broken clock|faded holiday decorations|a worn-out pillow|a cracked porcelain doll</en>
-							</junk>
-						</variables>
 				</scripttemplate>
 				<scripttemplate index="7" product="2" licence_type="2" guid="7cc2e045-6d20-4aa1-8a39-3d39053a0157">
 					<title>
 						<de>%STATIONMAP:RANDOMCITY%</de>
-						<en>%STATIONMAP:RANDOMCITY%</en>
 					</title>
 					<description>
 						<de>Es stellt sich heraus, dass der neue Bieter in Wirklichkeit %person3% in einer genialen Verkleidung ist. Alle lachen sich krumm.</de>
 						<en>Hilarity ensues as it turns out that the new bidder is, in fact, %person3% in a genius disguise. Everyone laughs hysterically.</en>
 					</description>
-						<variables>
-							<treasure>
-								<de>eine Luxus-Uhr|Diamantschmuck|antike Möbel|ein feines Kunstgemälde|eine Designer-Handtasche|eine Vintage-Weinflasche|eine Sammlerausgabe-Münze|eine seltene Briefmarke|eine limitierte Auflage von Sport-Memorabilia|antikes Porzellan|ein Vintage-Musikinstrument|ein Vintage-Auto|einen Goldbarren|einen Edelstein|ein wertvolles Comic-Buch|ein authentisches Autogramm eines Musikers|eine antike Feuerwaffe|eine Vintage-Kamera|eine Sammler-Tauschkarte|ein seltenes Buch|ein historisches Manuskript|einen antiken Gegenstand|eine Vintage-Vinylplatte|feines Porzellan|einen exklusiven Designer-Mantel|ein Vintage-Filmposter|feines Silberbesteck|einen aufwendigen Kronleuchter|einen handgefertigten Teppich|exquisites Kristallglas|eine antike Skulptur|ein einzigartiges Antiquitätenstück|einen luxuriösen Pelzmantel|ein teures elektronisches Gerät|einen Vintage-Motorrad|eine wertvolle Sportausrüstung|exklusiven feinen Wein|eine Edelmetallmünze|hochwertige Audiogeräte|eine Uhr in limitierter Auflage|exquisiten Handwerkskunst-Schmuck|eine antike Taschenuhr</de>
-								<en>a luxury watch|diamond jewelry|an antique furniture|a fine art painting|a designer handbag|a vintage wine bottle|a collector's edition coin|a rare stamp|a limited edition sports memorabilia|an antique porcelain|a vintage musical instrument|a vintage car|gold bullion|a precious gemstone|a valuable comic book|an authentic autograph from a famous musician|an antique firearm|a vintage camera|a collectible trading card|a rare book|a historic manuscript|an ancient artifact|a vintage vinyl record|fine china|an exclusive designer coat|a vintage movie poster|fine silverware|an ornate chandelier|a handcrafted rug|exquisite crystal glassware|an antique sculpture|a one-of-a-kind antique|a luxurious fur coat|an expensive electronic gadget|a vintage motorcycle|valuable sports equipment|an exclusive fine wine|a precious metal coin|high-end audio equipment|a limited edition watch|exquisite craftsmanship jewelry|an antique pocket watch</en>
-							</treasure>
-							<junk>
-								<de>eine alte Zeitung|ein kaputtes Möbelstück|nicht übereinstimmende Socken|abgelaufene Konserven|einen zerbrochenen Spiegel|ein rostiges Fahrrad|abgetragene Schuhe|eine verstaubte Schallplatte|ein veraltetes VHS-Band|eine abgesplitterte Schale|ein verblichenes Gemälde|ein veralteter Elektroartikel|verknotete Kabel|eine leere Plastikflasche|ein stumpfes Küchenutensil|ein veraltetes Kassettenband|beschädigtes Gepäck|eine zerkratzte CD|eine veraltete Computer-Tastatur|zerrissene Kleidung|kaputtes Spielzeug|ein ausgefranstes Stromkabel|eine durchgelegene Matratze|ein leeres Glasgefäß|eine gesprungene Keramikfigur|abgelaufene Medizin|ein veraltetes Magazin|ein ungenutztes Trainingsgerät|einen zerbrochenen Bilderrahmen|ein ausgetrockneter Stift|verblichene Poster|ein defektes Küchengerät|ein beschädigtes Brettspiel|ein abgenutzter Teppich|Kisten voller abgelaufener Beauty-Produkte|ein veraltetes Mobiltelefon|etwas zersplittertes Glasgeschirr|eine kaputte Uhr|verblichene Weihnachtsdekorationen|ein abgenutztes Kissen|eine gesprungene Porzellanpuppe</de>
-								<en>an old newspaper|a broken furniture|mismatched socks|expired canned food|a cracked mirror|a rusty bicycle|worn-out shoes|a dusty vinyl record|an obsolete VHS tape|a chipped dish|a faded painting|an outdated electronic|tangled cables|an empty plastic bottle|a dull kitchen utensil|an obsolete cassette tape|damaged luggage|a scratched CD|an obsolete computer keyboard|torn clothing|a broken toy|frayed electrical cord|a worn-out mattress|an empty glass jar|a cracked ceramic figurine|expired medicine|an outdated magazine|unused exercise equipment|a broken picture frame|a dried-out pen|faded posters|a defunct kitchen appliance|a damaged board game|a worn-out carpet|boxes full of expired beauty products|an obsolete cellphone|some shattered glassware|a broken clock|faded holiday decorations|a worn-out pillow|a cracked porcelain doll</en>
-							</junk>
-						</variables>
 				</scripttemplate>
 			</children>
 			<jobs>
@@ -818,7 +766,7 @@
 			<de>m|w</de>
 		</variant>
 		<tier_m>
-			<de>Kautz|Strauß|Tiger|Schwan|Jaguar|Fuchs|Wolf|Widder|Hund|Gorilla|Hahn|Bär</de>
+			<de>Kautz|Strauß|Tiger|Schwan|Jaguar|Fuchs|Wolf|Widder|Hund|Gorilla|Hahn|Bär</de><!--TODO Bär weglassen: "Mit dem Bären"-->
 		</tier_m>
 		<tier_w>
 			<de>Laus|Katze|Gans|Möwe|Schlange|Ziege|Biene|Hummel|Taube|Ente|Spinne|Giraffe</de>
@@ -829,7 +777,7 @@
 		<dativ_w>
 			<de>der</de>
 		</dativ_w>
-		<akkusativ_m>
+		<akkusativ_m><!--TODO nominativ?-->
 			<de>Der</de>
 		</akkusativ_m>
 		<akkusativ_w>
@@ -942,27 +890,21 @@
 		</title>
 		<person1_m>
 			<de>%PERSONGENERATOR_FIRSTNAME(US,1)%</de>
-			<en>%PERSONGENERATOR_FIRSTNAME(US,1)%</en>
 		</person1_m>
 		<person2_m>
 			<de>%PERSONGENERATOR_FIRSTNAME(US,1)%</de>
-			<en>%PERSONGENERATOR_FIRSTNAME(US,1)%</en>
 		</person2_m>
 		<person3_m>
 			<de>%PERSONGENERATOR_FIRSTNAME(US,1)%</de>
-			<en>%PERSONGENERATOR_FIRSTNAME(US,1)%</en>
 		</person3_m>
 		<person1_w>
 			<de>%PERSONGENERATOR_FIRSTNAME(US,2)%</de>
-			<en>%PERSONGENERATOR_FIRSTNAME(US,2)%</en>
 		</person1_w>
 		<person2_w>
 			<de>%PERSONGENERATOR_FIRSTNAME(US,2)%</de>
-			<en>%PERSONGENERATOR_FIRSTNAME(US,2)%</en>
 		</person2_w>
 		<person3_w>
 			<de>%PERSONGENERATOR_FIRSTNAME(US,2)%</de>
-			<en>%PERSONGENERATOR_FIRSTNAME(US,2)%</en>
 		</person3_w>
 	</variables>
 		<children>
