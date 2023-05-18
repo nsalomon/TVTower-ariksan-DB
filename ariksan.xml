@@ -108,7 +108,7 @@
 				<job index="5" function="64" required="1" gender="0"/>
 				<job index="6" function="16" required="1" gender="0"/>
 			</jobs>
-			<data flags="9" production_broadcast_limit="1" live_date="3,5,20,20" />
+			<data flags="9" production_broadcast_limit="1" live_date="3,5,20,20" production_licence_flags="36" />
 			<genres maingenre="100"/>
 			<blocks min="2" max="3" slope="90"/>
 			<price min="350000" max="600000" slope="65"/>
