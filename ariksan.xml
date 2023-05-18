@@ -477,7 +477,7 @@
 				<en>The Show with the %adjective% %animal%</en>
 			</title>
 			<description>
-				<de>Spass und Fakten mit ${dativ_${variant}} ${tier_${variant}} und dem kleinen %animal2%. ${akkusativ_${variant}} ${tier_${variant}} und das %animal2% erklären die Welt und sorgen für Lacher.</de>
+				<de>Spass und Fakten mit ${dativ_${variant}} ${tier_${variant}} und dem kleinen %animal2%. ${nominativ_${variant}} ${tier_${variant}} und das %animal2% erklären die Welt und sorgen für Lacher.</de>
 				<en>Fun and facts with the %animal% and the tiny %animal2%. Children explore the world with the %adjective% %animal% and the tiny %animal2% who also present funny clips and stories.</en>
 			</description>
 			<variables>
@@ -485,11 +485,12 @@
 					<de>m|w</de>
 				</variant>
 				<tier_m>
-					<de>Kautz|Strauß|Tiger|Schwan|Jaguar|Fuchs|Wolf|Widder|Hund|Gorilla|Hahn|Bär</de>
-					<!--TODO Bär weglassen: "Mit dem Bären"-->
+					<de>Kautz|Strauß|Tiger|Schwan|Jaguar|Fuchs|Wolf|Widder|Hund|Gorilla|Hahn</de>
+					<en>Rook|Ostrich|Tiger|Swan|Jaguar|Fox|Wolf|Ram|Dog|Gorilla|Rooster</en>
 				</tier_m>
 				<tier_w>
 					<de>Laus|Katze|Gans|Möwe|Schlange|Ziege|Biene|Hummel|Taube|Ente|Spinne|Giraffe</de>
+					<en>Louse|Cat|Goose|Gull|Snake|Goat|Bee|Bumblebee|Dove|Duck|Spider|Giraffe</en>
 				</tier_w>
 				<dativ_m>
 					<de>dem</de>
@@ -497,15 +498,14 @@
 				<dativ_w>
 					<de>der</de>
 				</dativ_w>
-				<akkusativ_m>
-					<!--TODO nominativ?-->
+				<nominativ_m>
 					<de>Der</de>
-				</akkusativ_m>
-				<akkusativ_w>
+				</nominativ_m>
+				<nominativ_w>
 					<de>Die</de>
-				</akkusativ_w>
+				</nominativ_w>
 				<animal>
-					<en>Rook|Ostrich|Tiger|Swan|Jaguar|Fox|Wolf|Ram|Dog|Gorilla|Rooster|Bear|Louse|Cat|Goose|Gull|Snake|Goat|Bee|Bumblebee|Dove|Duck|Spider|Giraffe</en>
+					<en>${tier_${variant}}</en>
 				</animal>
 				<animal2>
 					<de>Nashorn|Flusspferd|Pferd|Stachelschwein|Schaf|Huhn|Kamel|Walross|Krokodil</de>
@@ -522,7 +522,7 @@
 						<en>The tomb of the pharao</en>
 					</title>
 					<description>
-						<de>${akkusativ_${variant}} ${tier_${variant}} und das %animal2% tauchen in die Welt der Archäologie ein. Achtung kleines %animal2%, keine alten Flüche wecken!</de>
+						<de>${nominativ_${variant}} ${tier_${variant}} und das %animal2% tauchen in die Welt der Archäologie ein. Achtung kleines %animal2%, keine alten Flüche wecken!</de>
 						<en>The %adjective% %animal% and the tiny %animal2% delve into archaeology. Easy, %animal2%, no ancient curses or mummies will make great roommates!</en>
 					</description>
 				</scripttemplate>
@@ -532,7 +532,7 @@
 						<en>C++ is not a vitamine</en>
 					</title>
 					<description>
-						<de>${akkusativ_${variant}} ${tier_${variant}} und das %animal2% lernen Programmieren. Achtung kleines %animal2%, übermäßige Semikolons werden den Computer nicht beeindrucken!</de>
+						<de>${nominativ_${variant}} ${tier_${variant}} und das %animal2% lernen Programmieren. Achtung kleines %animal2%, übermäßige Semikolons werden den Computer nicht beeindrucken!</de>
 						<en>The %adjective% %animal% and the tiny %animal2% learn coding. Remember, %animal2%, excessive semicolons won't impress the computer, just confuse it!</en>
 					</description>
 				</scripttemplate>
@@ -542,7 +542,7 @@
 						<en>Don't eat that jelly</en>
 					</title>
 					<description>
-						<de>${akkusativ_${variant}} ${tier_${variant}} und das %animal2% erkunden den Ozean. Autsch, kleines %animal2%, lass uns lieber Abstand von den quälenden Quallen halten!</de>
+						<de>${nominativ_${variant}} ${tier_${variant}} und das %animal2% erkunden den Ozean. Autsch, kleines %animal2%, lass uns lieber Abstand von den quälenden Quallen halten!</de>
 						<en>The %adjective% %animal% and the tiny %animal2% explore the ocean. Ouchy, tiny %animal2%, let's keep our distance from those jellyfish!</en>
 					</description>
 				</scripttemplate>
@@ -552,7 +552,7 @@
 						<en>Black Gold</en>
 					</title>
 					<description>
-						<de>${akkusativ_${variant}} ${tier_${variant}} und das %animal2% besuchen eine Raffinerie. Oh uhhh, die Strechhölzer bitte stecken lassen, kleines %animal2%!</de>
+						<de>${nominativ_${variant}} ${tier_${variant}} und das %animal2% besuchen eine Raffinerie. Oh uhhh, die Strechhölzer bitte stecken lassen, kleines %animal2%!</de>
 						<en>The %adjective% %animal% and the tiny %animal2% visit an oil refinery. Uhhh, tiny %animal2%, don't play with matches!</en>
 					</description>
 				</scripttemplate>
@@ -562,7 +562,7 @@
 						<en>BrushBot Buddy</en>
 					</title>
 					<description>
-						<de>${akkusativ_${variant}} ${tier_${variant}} und das %animal2% besuchen ein Robotiklabor. Keine Sorge, kleines %animal2%, die Roboter werden die Welt nicht übernehmen... noch nicht!</de>
+						<de>${nominativ_${variant}} ${tier_${variant}} und das %animal2% besuchen ein Robotiklabor. Keine Sorge, kleines %animal2%, die Roboter werden die Welt nicht übernehmen... noch nicht!</de>
 						<en>The %adjective% %animal% and the tiny %animal2% visit a robotics lab. Don't worry, tiny %animal2%, the robots won't take over the world... yet!</en>
 					</description>
 				</scripttemplate>
@@ -572,7 +572,7 @@
 						<en>Forest Explorers</en>
 					</title>
 					<description>
-						<de>${akkusativ_${variant}} ${tier_${variant}} und das %animal2% begleiten einen Förster. Winziges %animal2%, es ist unhöflich mit den Bäumen zu streiten, auch wenn sie nicht gut zuhören!</de>
+						<de>${nominativ_${variant}} ${tier_${variant}} und das %animal2% begleiten einen Förster. Winziges %animal2%, es ist unhöflich mit den Bäumen zu streiten, auch wenn sie nicht gut zuhören!</de>
 						<en>The %adjective% %animal% and the tiny %animal2% accompany join forester in his daily tasks. Remember, tiny %animal2%, it's not polite to argue with the trees, even if they're not good listeners!</en>
 					</description>
 				</scripttemplate>
